@@ -58,7 +58,7 @@ Dataset Directory Structure
 Each dataset should be organized as follows:
 datasets/
 ## ├── VisDrone2019/
-## │   ├── images/
+│   ├── images/
 │   │   ├── train/          # Training images
 │   │   ├── val/            # Validation images
 │   │   └── test/           # Test images
