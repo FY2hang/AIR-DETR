@@ -57,8 +57,8 @@ This project supports three drone datasets: VisDrone2019, AI-TOD, CODrone
 Dataset Directory Structure
 Each dataset should be organized as follows:
 datasets/
-├── VisDrone2019/
-│   ├── images/
+## ├── VisDrone2019/
+## │   ├── images/
 │   │   ├── train/          # Training images
 │   │   ├── val/            # Validation images
 │   │   └── test/           # Test images
