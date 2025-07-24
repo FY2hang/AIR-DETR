@@ -1,3 +1,4 @@
+AIR-DETR
 An improved RT-DETR based UAV visual object detection project supporting multiple drone datasets.
 Project Introduction
 This project is an improved RT-DETR object detection algorithm specifically designed for small object detection tasks in UAV aerial images. It supports three mainstream drone datasets: VisDrone2019, AI-TOD, and CODrone. Through optimization for aerial scene characteristics, it achieves better detection performance in complex aerial environments.
