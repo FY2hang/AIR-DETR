@@ -96,4 +96,4 @@ Official Website: https://github.com/jwwangchn/AI-TOD
 
 CODrone Dataset
 
-Official Website: [Link to be added]
+Official Website: https://github.com/AHideoKuzeA/CODrone-A-Comprehensive-Oriented-Object-Detection-benchmark-for-UAV
