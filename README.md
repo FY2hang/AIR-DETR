@@ -25,7 +25,7 @@ MMEngine: 0.10.4
 Triton: 3.2.0
 CUDA: 12.1
 # Installation
-1. Clone Repository
+## 1. Clone Repository
 bashgit clone https://github.com/FY2hang/AIR-DETR.git
 cd AIR-DETR
 2. Environment Setup (Important!)
