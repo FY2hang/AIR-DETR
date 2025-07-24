@@ -1,0 +1,11 @@
+# dataset path
+path: /home/featurize/zfy
+train: ./dataset/CODrone/images/train
+val: ./dataset/CODrone/images/val
+test: ./dataset/CODrone/images/test
+
+# number of classes
+nc: 12
+ 
+# class names
+names: [ 'car', 'truck', 'traffic-sign', 'people', 'motor', 'bicycle','traffic-light', 'tricycle', 'bridge', 'bus', 'boat', 'ship' ]

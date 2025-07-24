@@ -1,0 +1,19 @@
+# dataset path
+path: /home/featurize/zfy
+train: ./dataset/AI-TOD/aitodtoolkit/aitod/images/train
+val: ./dataset/AI-TOD/aitodtoolkit/aitod/images/val
+test: ./dataset/AI-TOD/aitodtoolkit/aitod/images/test
+
+# Number of classes
+nc: 8
+
+# Class names
+names:
+  0: airplane
+  1: bridge
+  2: storage-tank
+  3: ship
+  4: swimming-pool
+  5: vehicle
+  6: person
+  7: wind-mill
