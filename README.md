@@ -28,7 +28,7 @@ CUDA: 12.1
 ## 1. Clone Repository
 bashgit clone https://github.com/FY2hang/AIR-DETR.git
 cd AIR-DETR
-2. Environment Setup (Important!)
+## 2. Environment Setup (Important!)
 ⚠️ Note: Follow these steps strictly to avoid dependency conflicts
 Step 1: Install basic dependencies
 bashpip install -r requirements.txt
@@ -38,14 +38,14 @@ pip uninstall ultralytics
 
 Execute again to confirm clean uninstall (should show WARNING: Skipping ultralytics as it is not installed.)
 pip uninstall ultralytics
-Step 3: Install additional packages
+## Step 3: Install additional packages
 bashpip install timm==1.0.7 thop efficientnet_pytorch==0.7.1 einops grad-cam==1.5.4 dill==0.3.8 albumentations==1.4.11 pytorch_wavelets==1.3.0 tidecv PyWavelets opencv-python prettytable -i https://pypi.tuna.tsinghua.edu.cn/simple
-Step 4: Install DyHead dependencies (Required)
+## Step 4: Install DyHead dependencies (Required)
 bash# These packages are essential for DyHead functionality!
 pip install -U openmim
 mim install mmengine
 mim install "mmcv>=2.0.0"
-Step 5: Install ultralytics (Optional)
+## Step 5: Install ultralytics (Optional)
 bash# If you need to use official CLI running method
 python setup.py develop
 
